@@ -33,10 +33,10 @@ const Contact = () => {
                         <img src={saiful} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">Saiful Islam</h2>
-                        <p>H-31, R-19, B-D, Mirpur-6</p>
-                        <p>+8801724-219510</p>
-                        <p>saifull.islam0708@gmail.com</p>
+                        <h2 className="card-title font-extrabold">Saiful Islam</h2>
+                        <p className='font-semibold'>H-31, R-19, B-D, Mirpur-6</p>
+                        <p className='font-semibold'>+8801724-219510</p>
+                        <p className='font-semibold'>saifull.islam0708@gmail.com</p>
                     </div>
                 </div>
 

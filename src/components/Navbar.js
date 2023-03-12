@@ -15,10 +15,9 @@ const Navbar = () => {
                         <li><Link to='/education'>Education</Link></li>
                         <li><Link to='/skills'>Skills</Link></li>
                         <li><Link to='/experiences'>Experience</Link></li>
-                        <li><Link to='/blog'>Hobbies</Link></li>
                         <li><Link to='/contact'>Contact Info</Link></li>
                         {/* <li><a href='#contact'>Contact Info</a></li> */}
-                        <Link className='btn btn-outline' to="/files/resume.pdf" target="_blank" download>Resume</Link>
+                        {/* <Link className='btn btn-outline' to="/files/resume.pdf" target="_blank" download>Resume</Link> */}
                     </ul>
                 </div>
                 <Link to='/home' className="btn btn-ghost normal-case text-xl"><img className='w-48' src={logo} alt="" /></Link>
