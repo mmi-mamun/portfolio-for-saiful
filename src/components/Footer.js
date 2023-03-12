@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="m-4 mt-auto">
-            <p className='text-center text-lg font-bold'>Made with ❤ by Mamun</p>
+        <footer className="m-4 mt-auto py-24">
+            <p className='text-center text-lg font-bold'>Made by ❤ MI Mamun</p>
         </footer>
     );
 };

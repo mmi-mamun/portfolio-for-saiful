@@ -27,7 +27,7 @@ const Contact = () => {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Saiful Islam</h2>
-                        <p>H-31, R-19, S-D, Mirpur-6</p>
+                        <p>H-31, R-19, B-D, Mirpur-6</p>
                         <p>+8801724-219510</p>
                         <p>saifull.islam0708@gmail.com</p>
                     </div>
