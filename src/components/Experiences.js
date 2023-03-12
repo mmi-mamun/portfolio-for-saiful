@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Experiences = () => {
     return (
         <section className='my-12'>
+            <Helmet>
+                <title>Saiful | Experiences</title>
+            </Helmet>
+
+
             <div className=" bg-base-200 border">
                 <div className="hero-content text-center">
                     <div className="">

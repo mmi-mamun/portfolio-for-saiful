@@ -5,6 +5,7 @@ import Experiences from "../components/Experiences";
 import Skills from "../components/Skills";
 import Main from "../Layout/Main";
 import About from "../Pages/About";
+import AboutMe from "../Pages/AboutMe";
 import Blog from "../Pages/Blog";
 import Home from "../Pages/Home";
 import ProjectDetails from "../Pages/ProjectDetails";
@@ -29,7 +30,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <About></About>
+                element: <AboutMe></AboutMe>
             },
             {
                 path: '/experiences',

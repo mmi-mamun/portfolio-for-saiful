@@ -4,11 +4,17 @@ import excel from '../assets/icons/ms-excel.png';
 import erp from '../assets/icons/erp.png';
 import browsing from '../assets/icons/net-browsing.png';
 import right from '../assets/icons/right.jpg';
+import { Helmet } from 'react-helmet';
 
 
 const Skills = () => {
     return (
-        <div className='mb-10'>
+        <div className='my-12'>
+            <Helmet>
+                <title>Saiful | Skill</title>
+            </Helmet>
+
+
             <h1 className="text-center text-4xl font-bold text-gray-700 py-5">Hard Skills</h1>
             <div className='flex flex-wrap gap-3 items-center justify-center mb-10'>
                 <img className="w-16 mr-3" src={word} alt="" />

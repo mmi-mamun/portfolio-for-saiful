@@ -1,9 +1,8 @@
 import React from 'react';
 import Banner from '../components/Banner';
-import Projects from '../components/Projects';
-import Skills from '../components/Skills';
 import { Helmet } from "react-helmet";
 import Contact from '../components/Contact';
+import About from './About';
 
 const Home = () => {
     return (
@@ -11,7 +10,9 @@ const Home = () => {
             <Helmet>
                 <title>Saiful | Home</title>
             </Helmet>
+
             <Banner></Banner>
+            <About></About>
             <Contact></Contact>
         </div>
     );

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
 import saiful from '../assets/photos/saiful.jpg'
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     const form = useRef();
@@ -18,7 +19,13 @@ const Contact = () => {
             });
     };
     return (
-        <div className="hero bg-base-200">
+        <div className="hero bg-base-200 my-12">
+            <Helmet>
+                <title>Saiful | Contact</title>
+            </Helmet>
+
+
+
             <div className="hero-content flex-col lg:flex-row">
                 {/* <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" /> */}
                 <div className="card bg-base-100 shadow-xl mt-6">
