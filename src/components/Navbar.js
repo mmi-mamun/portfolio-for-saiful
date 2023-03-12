@@ -13,8 +13,8 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to='/about'>About Me</Link></li>
                         <li><Link to='/about'>Education</Link></li>
-                        <li><Link to='/about'>Skills</Link></li>
-                        <li><Link to='/projects'>Experience</Link></li>
+                        <li><Link to='/skills'>Skills</Link></li>
+                        <li><Link to='/experiences'>Experience</Link></li>
                         <li><Link to='/blog'>Hobbies</Link></li>
                         <li><a href='#contact'>Contact Info</a></li>
                         <Link className='btn btn-outline' to="/files/resume.pdf" target="_blank" download>Resume</Link>
@@ -26,8 +26,8 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal p-0">
                     <li><Link to='/about'>About Me</Link></li>
                     <li><Link to='/about'>Education</Link></li>
-                    <li><Link to='/about'>Skills</Link></li>
-                    <li><Link to='/projects'>Experience</Link></li>
+                    <li><Link to='/skills'>Skills</Link></li>
+                    <li><Link to='/experiences'>Experience</Link></li>
                     <li><Link to='/blog'>Hobbies</Link></li>
                     <li><a href='#contact'>Contact Info</a></li>
                     {/* <Link className='btn btn-outline' to="/files/resume.pdf" target="_blank" download>Resume</Link> */}
