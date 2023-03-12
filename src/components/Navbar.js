@@ -16,7 +16,7 @@ const Navbar = () => {
                         <li><Link to='/about'>Skills</Link></li>
                         <li><Link to='/projects'>Experience</Link></li>
                         <li><Link to='/blog'>Hobbies</Link></li>
-                        <li><a href='#contact'>Contact Me</a></li>
+                        <li><a href='#contact'>Contact Info</a></li>
                         <Link className='btn btn-outline' to="/files/resume.pdf" target="_blank" download>Resume</Link>
                     </ul>
                 </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <li><Link to='/about'>Skills</Link></li>
                     <li><Link to='/projects'>Experience</Link></li>
                     <li><Link to='/blog'>Hobbies</Link></li>
-                    <li><a href='#contact'>Contact Me</a></li>
+                    <li><a href='#contact'>Contact Info</a></li>
                     {/* <Link className='btn btn-outline' to="/files/resume.pdf" target="_blank" download>Resume</Link> */}
                 </ul>
             </div>

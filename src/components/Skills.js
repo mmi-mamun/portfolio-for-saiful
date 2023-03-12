@@ -1,39 +1,48 @@
 import React from 'react';
-import htmlpic from '../assets/icons/html.png';
-import css from '../assets/icons/css.png';
-import react from '../assets/icons/react.png';
-import mongo from '../assets/icons/mongo.png';
-import node from '../assets/icons/node.png';
-import express from '../assets/icons/express.png';
-import firebase from '../assets/icons/firebase.png';
+import word from '../assets/icons/ms-word.png';
+import excel from '../assets/icons/ms-excel.png';
+import erp from '../assets/icons/erp.png';
+import browsing from '../assets/icons/net-browsing.png';
 import right from '../assets/icons/right.jpg';
+
 
 const Skills = () => {
     return (
         <div className='mb-10'>
-            <h1 className="text-center text-4xl font-bold text-gray-700 py-5">I work with</h1>
+            <h1 className="text-center text-4xl font-bold text-gray-700 py-5">Hard Skills</h1>
+            <div className='flex flex-wrap gap-3 items-center justify-center mb-10'>
+                <img className="w-16 mr-3" src={word} alt="" />
+                <img className="w-16 mr-3" src={excel} alt="" />
+                <img className="w-16 mr-3" src={erp} alt="" />
+                <img className="w-16 mr-3" src={browsing} alt="" />
+            </div>
+
+            <h1 className="text-center text-4xl font-bold text-gray-700 py-5">Soft Skills</h1>
             <div className="grid grid-cols-1 px-20">
                 <div>
-                    <div className='flex flex-wrap items-center justify-center mb-10'>
-                        <img className="w-16 mr-3" src={htmlpic} alt="" />
-                        <img className="w-16 mr-3" src={css} alt="" />
-                        <img className="w-16 mr-3" src={react} alt="" />
-                        <img className="w-16 mr-3" src={mongo} alt="" />
-                        <img className="w-16 mr-3" src={node} alt="" />
-                        <img className="w-16 mr-3" src={express} alt="" />
-                        <img className="w-16 mr-3" src={firebase} alt="" />
+                    <div className="flex items-center">
+                        <img className="w-10 mr-2" src={right} alt="" />
+                        <p className="text-xl font-semibold">Strategic Planning</p>
                     </div>
                     <div className="flex items-center">
                         <img className="w-10 mr-2" src={right} alt="" />
-                        <p className="text-xl font-semibold">Building Responsive Websites using React</p>
+                        <p className="text-xl font-semibold">Analytical Thinking</p>
                     </div>
                     <div className="flex items-center">
                         <img className="w-10 mr-2" src={right} alt="" />
-                        <p className="text-xl font-semibold">Using NoSQL databases for better and seamless experience</p>
+                        <p className="text-xl font-semibold">Problem Solving</p>
                     </div>
                     <div className="flex items-center">
                         <img className="w-10 mr-2" src={right} alt="" />
-                        <p className="text-xl font-semibold">Creating APIs using Node.js and Express.js</p>
+                        <p className="text-xl font-semibold">Decision Making</p>
+                    </div>
+                    <div className="flex items-center">
+                        <img className="w-10 mr-2" src={right} alt="" />
+                        <p className="text-xl font-semibold">Detail Oriented</p>
+                    </div>
+                    <div className="flex items-center">
+                        <img className="w-10 mr-2" src={right} alt="" />
+                        <p className="text-xl font-semibold">Cash Flow Management</p>
                     </div>
                 </div>
 
