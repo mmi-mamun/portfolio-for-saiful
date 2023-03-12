@@ -18,7 +18,7 @@ const About = () => {
                     <p className='text-xl font-semibold text-justify text-gray-700 m-5'>I am Saiful Islam from Mirpur, Dhaka, Bangladesh. I completed BBA from Bangladesh University of Business and Technology, majoring Finance with a healthy CGPA 3.24. I took physical experience as an intern about various vouchers, how to record transaction, how to make Balance Sheet from Rio Fashion. I am highly detail-oriented individual, eager to contribute towards the building of a strong finance team. Skilled at handling Audit projects and Balance Sheets. Knowledge and understanding of various Accounting and Finance tools.</p>
                     <p className='text-center underline text-xl font-semibold text-gray-700 mb-2'>Connect Me On</p>
                     <p className='text-center text-xl font-semibold text-sky-700 mb-5'>
-                        <a className='hover:underline' target="_blank" rel='noreferrer' href="https://github.com">Github</a> |
+                        {/* <a className='hover:underline' target="_blank" rel='noreferrer' href="https://github.com">Github</a> | */}
                         <a className='hover:underline' target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/saiful-islam-453565179/"> LinkedIn</a> |
                         <a className='hover:underline' target="_blank" rel='noreferrer' href="https://www.facebook.com/profile.php?id=100004501036224"> Facebook</a></p>
                 </div>

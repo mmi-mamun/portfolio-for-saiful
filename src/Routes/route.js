@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Contact from "../components/Contact";
 import Experiences from "../components/Experiences";
 import Skills from "../components/Skills";
 import Main from "../Layout/Main";
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
             {
                 path: '/skills',
                 element: <Skills></Skills>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             },
             {
                 path: '/project/:id',
